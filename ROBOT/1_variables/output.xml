@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-04T12:06:20.344651" rpa="false" schemaversion="5">
+<suite id="s1" name="3 Dictionary" source="C:\Users\Naveenkumar bn\OneDrive\Desktop\PYTHON\ROBOT\1_variables\3_Dictionary.robot">
+<test id="s1-t1" name="Dict Operations" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-03-04T12:06:20.394851" level="WARN">kumar</msg>
+<arg>${EMP_DET}[name]</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T12:06:20.394851" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-03-04T12:06:20.389418" elapsed="0.005433"/>
+</test>
+<doc>To know how to do Dictionary operations</doc>
+<status status="PASS" start="2024-03-04T12:06:20.344651" elapsed="0.050200"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="3 Dictionary">3 Dictionary</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-03-04T12:06:20.394851" level="WARN">kumar</msg>
+</errors>
+</robot>

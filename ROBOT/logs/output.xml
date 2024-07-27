@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230227 07:32:55.140" rpa="false" schemaversion="3">
+<suite id="s1" name="TEST SUITE" source="C:\INSTITUTE_COURSES\INST\2_ONLINE_CLASS\2_ROBOT\8_Execution_Options\TEST_SUITE.robot">
+<test id="s1-t1" name="Testcase:1" line="8">
+<kw name="Log" library="BuiltIn">
+<arg>TESTCASE 1 NAME IS ==&gt; ${NAME}</arg>
+<arg>ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230227 07:32:55.165" level="ERROR">TESTCASE 1 NAME IS ==&gt; SRIRAM</msg>
+<status status="PASS" starttime="20230227 07:32:55.164" endtime="20230227 07:32:55.166"/>
+</kw>
+<status status="PASS" starttime="20230227 07:32:55.164" endtime="20230227 07:32:55.166"/>
+</test>
+<test id="s1-t2" name="Testcase:2" line="11">
+<kw name="Log" library="BuiltIn">
+<arg>TESTCASE-2 BODY</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230227 07:32:55.167" level="WARN">TESTCASE-2 BODY</msg>
+<status status="PASS" starttime="20230227 07:32:55.167" endtime="20230227 07:32:55.167"/>
+</kw>
+<status status="PASS" starttime="20230227 07:32:55.166" endtime="20230227 07:32:55.167"/>
+</test>
+<test id="s1-t3" name="Testcase:3" line="14">
+<kw name="Log" library="BuiltIn">
+<arg>TESTCASE-3 BODY</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230227 07:32:55.168" level="WARN">TESTCASE-3 BODY</msg>
+<status status="PASS" starttime="20230227 07:32:55.168" endtime="20230227 07:32:55.169"/>
+</kw>
+<status status="PASS" starttime="20230227 07:32:55.168" endtime="20230227 07:32:55.169"/>
+</test>
+<doc>To know how many options to run ro bobot file</doc>
+<status status="PASS" starttime="20230227 07:32:55.142" endtime="20230227 07:32:55.169"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TEST SUITE">TEST SUITE</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230227 07:32:55.165" level="ERROR">TESTCASE 1 NAME IS ==&gt; SRIRAM</msg>
+<msg timestamp="20230227 07:32:55.167" level="WARN">TESTCASE-2 BODY</msg>
+<msg timestamp="20230227 07:32:55.168" level="WARN">TESTCASE-3 BODY</msg>
+</errors>
+</robot>

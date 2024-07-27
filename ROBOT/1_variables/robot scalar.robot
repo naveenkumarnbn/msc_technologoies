@@ -1,0 +1,2 @@
+${name} = sriram
+prinr(name)

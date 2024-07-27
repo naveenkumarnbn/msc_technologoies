@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-04T11:21:46.439016" rpa="false" schemaversion="5">
+<suite id="s1" name="1 Test setup teardown" source="C:\Users\Naveenkumar bn\OneDrive\Desktop\PYTHON\ROBOT\7_Setup_teardown\1_Test_setup_teardown.robot">
+<test id="s1-t1" name="Testcase1" line="5">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-03-04T11:21:46.489348" level="WARN">SETUP FOR FIRST TEST CASE</msg>
+<arg>SETUP FOR FIRST TEST CASE</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T11:21:46.488733" elapsed="0.001123"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-03-04T11:21:46.489856" level="ERROR">Test Case : 1</msg>
+<arg>Test Case : 1</arg>
+<arg>ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T11:21:46.489856" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-03-04T11:21:46.489856" level="WARN">TEARDOWN FOR FIRST TEST CASE</msg>
+<arg>TEARDOWN FOR FIRST TEST CASE</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T11:21:46.489856" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-03-04T11:21:46.478232" elapsed="0.011624"/>
+</test>
+<test id="s1-t2" name="Testcase2" line="10">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-03-04T11:21:46.495826" level="WARN">Setup FOR SECOND TEST CASE</msg>
+<arg>Setup FOR SECOND TEST CASE</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T11:21:46.494818" elapsed="0.001008"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-03-04T11:21:46.495826" level="ERROR">Test Case : 2</msg>
+<arg>Test Case : 2</arg>
+<arg>ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T11:21:46.495826" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-03-04T11:21:46.495826" level="WARN">TEARDOWN FOR SECOND TEST CASE</msg>
+<arg>TEARDOWN FOR SECOND TEST CASE</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-03-04T11:21:46.495826" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-03-04T11:21:46.494818" elapsed="0.001008"/>
+</test>
+<doc>To know how to use setup and teardown options</doc>
+<status status="PASS" start="2024-03-04T11:21:46.439529" elapsed="0.056297"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="1 Test setup teardown">1 Test setup teardown</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-03-04T11:21:46.489348" level="WARN">SETUP FOR FIRST TEST CASE</msg>
+<msg time="2024-03-04T11:21:46.489856" level="ERROR">Test Case : 1</msg>
+<msg time="2024-03-04T11:21:46.489856" level="WARN">TEARDOWN FOR FIRST TEST CASE</msg>
+<msg time="2024-03-04T11:21:46.495826" level="WARN">Setup FOR SECOND TEST CASE</msg>
+<msg time="2024-03-04T11:21:46.495826" level="ERROR">Test Case : 2</msg>
+<msg time="2024-03-04T11:21:46.495826" level="WARN">TEARDOWN FOR SECOND TEST CASE</msg>
+</errors>
+</robot>

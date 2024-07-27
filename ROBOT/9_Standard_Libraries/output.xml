@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230227 07:50:16.367" rpa="false" schemaversion="3">
+<suite id="s1" name="3 Operating System" source="C:\INSTITUTE_COURSES\INST\2_ONLINE_CLASS\2_ROBOT\9_Standard_Libraries\3_operating_system.robot">
+<test id="s1-t1" name="Run System Command" line="15">
+<kw name="Run" library="OperatingSystem">
+<var>${r}</var>
+<arg>dir</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<msg timestamp="20230227 07:50:16.436" level="INFO">Running command 'dir 2&gt;&amp;1'.</msg>
+<msg timestamp="20230227 07:50:16.460" level="INFO">${r} =  Volume in drive C is Windows
+ Volume Serial Number is 28CC-B731
+
+ Directory of C:\INSTITUTE_COURSES\INST\2_ONLINE_CLASS\2_ROBOT\9_Standard_Libraries
+
+02/27/2023  07:46 AM    &lt;DIR&gt;          .
+02/27/20...</msg>
+<status status="PASS" starttime="20230227 07:50:16.420" endtime="20230227 07:50:16.460"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${r}</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230227 07:50:16.462" level="WARN"> Volume in drive C is Windows
+ Volume Serial Number is 28CC-B731
+
+ Directory of C:\INSTITUTE_COURSES\INST\2_ONLINE_CLASS\2_ROBOT\9_Standard_Libraries
+
+02/27/2023  07:46 AM    &lt;DIR&gt;          .
+02/27/2023  07:46 AM    &lt;DIR&gt;          ..
+02/27/2023  07:39 AM               551 1_Buitin_library.robot
+05/26/2021  06:57 PM             1,009 2_collection_library.robot
+02/27/2023  07:47 AM               521 3_operating_system.robot
+05/26/2021  06:57 PM               845 4_Strings_Library.robot
+02/27/2023  07:46 AM           230,026 log.html
+02/27/2023  07:50 AM                 0 output.xml
+02/27/2023  07:46 AM           234,882 report.html
+               7 File(s)        467,834 bytes
+               2 Dir(s)  204,112,412,672 bytes free</msg>
+<status status="PASS" starttime="20230227 07:50:16.460" endtime="20230227 07:50:16.464"/>
+</kw>
+<status status="PASS" starttime="20230227 07:50:16.420" endtime="20230227 07:50:16.464"/>
+</test>
+<doc>* Enables various operating system related tasks to be performed in the system where Robot Framework is running. *</doc>
+<status status="PASS" starttime="20230227 07:50:16.368" endtime="20230227 07:50:16.467"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="3 Operating System">3 Operating System</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230227 07:50:16.462" level="WARN"> Volume in drive C is Windows
+ Volume Serial Number is 28CC-B731
+
+ Directory of C:\INSTITUTE_COURSES\INST\2_ONLINE_CLASS\2_ROBOT\9_Standard_Libraries
+
+02/27/2023  07:46 AM    &lt;DIR&gt;          .
+02/27/2023  07:46 AM    &lt;DIR&gt;          ..
+02/27/2023  07:39 AM               551 1_Buitin_library.robot
+05/26/2021  06:57 PM             1,009 2_collection_library.robot
+02/27/2023  07:47 AM               521 3_operating_system.robot
+05/26/2021  06:57 PM               845 4_Strings_Library.robot
+02/27/2023  07:46 AM           230,026 log.html
+02/27/2023  07:50 AM                 0 output.xml
+02/27/2023  07:46 AM           234,882 report.html
+               7 File(s)        467,834 bytes
+               2 Dir(s)  204,112,412,672 bytes free</msg>
+</errors>
+</robot>
