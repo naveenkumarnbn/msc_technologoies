@@ -1,0 +1,273 @@
+    PRINT 1 TO 100 ADD AND EVEN NUMBERS:-
+
+   for i in range(1,+ 101):
+   if i%2!=0:
+    print(i)   
+
+for i in range(1,+101):
+    if i%2==0:
+       print(i)
+
+
+   printing last two letters:-
+
+  eg:-
+       v='ramraj'
+lastt_two_letters=v[-2:]
+print(lastt_two_lettersss
+
+    construct tables [2 to 20] code
+     eg:-
+         n=9
+for i in range(1,11):
+    print(f'{n}*{i}={n*i}')
+ 
+ 
+
+
+   using string to make revesre type function:-
+    eg:-
+       name='naveen'
+rev=""
+for i in range name:
+    print(i)
+    rev = i+rev
+print(rev) 
+
+   functions:-
+  add function:-
+  1. eg*  
+       def add(a,b):
+    print(a+b)
+add(10,20)
+add(10,20)
+add(10,20)
+
+  2. eg*
+        def add(a=10,b=30,c=40):
+    print(a+b+c)
+add() 
+
+       args*
+        eg:-
+            def ramu(*a):
+    print(a)
+ramu(1,2,3,'d','t','#','@','$') 
+   
+       kwargs**
+       eg:-
+         def greet(**a):
+    print(a)
+greet(name='bavana',age='26',city='chennai',dname='IT')  
+
+     Regular expressions:-
+    eg:-(MATCH)
+               import re 
+
+name='ramraj'
+match =re.match('raj',name)
+print(match.group())
+
+          EG:-(SEARCH)
+        import re 
+
+name='ramraj'
+match =re.search('raj',name)
+print(match.group())
+
+ " EXCEPTIONS AND TYPES OF ERRORS IN PYTHON"
+     
+      try:
+    #a=10
+    #b=0
+    #c=(10/0) #zerodivisionerror
+    #l='name'
+    #i={'name':"bhavana",'age':25}
+    #print(i['id']) #key error
+    #print(x) #nameerror
+    #print(a)
+    #result ="10" + 5 #type error
+    #a=int('$') #value error
+    #def add ()  :
+               #    a=25
+               #     b=3  #Indentation Error
+   # file =open('demo.txt')  #filenotfound error         
+   # l=[1,2,3,4]
+    #print(l[4])  #Index error
+
+           
+#except Execution  as e:
+  #  print(e)
+#except ZeroDivisionError as  e:
+   # print(e)
+#except KeyError as k:
+   # print(k)
+#except NameError as n:
+   # print(n)
+#except TypeError as t:
+    #print(t)
+#except ValueError as v:
+   # print(v)
+#except IndentationError as en:
+    #print(en)
+#except FilenotFoundError as fh:
+    #print(fh)
+#except IndexError as In:
+   # print(In)
+
+    
+else:
+    print("is  executed successfully")
+    
+finally:
+    print("clean up process") 
+
+    "CONDITIONAL STATEMENTS"
+    
+    1. examples:-
+               num =10
+if num >0:
+    print("the number is positive")
+    
+else:
+    print("the number is non-positive")
+
+ 2. eg:-
+        num=-5
+if num > 0:
+    print("the number is positive")
+    
+elif num < 0:
+    print("the number is negitive")
+    
+else:
+    print("the number is zero")
+
+  1) Repeated characters count in string?
+ eg:-l="sriram,sri,gopal,balu,mahesh,ramu,rahul,dhoni"
+print(l.count('r'))
+
+ 2) Remove duplicate values from list
+
+ eg: l={1,2,3,4,5,6,7,8,9,3,6,9,1}
+print(l)
+
+ 3) How to get even numbers from range of 1 to 100?
+  eg: for i in range(1,101):
+    if i%2 ==0:
+        print(i)
+  4)How to get odd numbers from range of 1 to 100?
+  eg:
+     for i in range(1,+101):
+          if i%2! =0:
+             print(i)
+ 5)7) How to know given number is even or odd ?
+   eg:
+       if i%2 ==0:  are called even number
+       
+       if i%2! =0:  are called add  number
+  
+ 6) Write a sample code for *args and **kwargs in function?
+
+   eg: *args
+     def kiran(*a):
+    print(a)
+kiran(1,2,3,4,56,78,'w','u','#','$')
+
+   eg: **kwargs
+       def functionname(**a):
+   print(a)
+functionname(name='ntr',city='bangalore',age='27',dname='technology')
+
+ 7) Reverse a string, # example => SRIRAM to MARIRS ?
+    eg: s="sriram"
+print(s[::-1])
+
+8)fibanacci series
+
+eg:- fibanacci   
+a = 0
+b = 0
+c = 1
+for i in range(0,10):
+    a = b
+    b = c
+    c = a+b
+    print(a)
+
+
+import re
+
+pancard = "cjypn9662g"
+ro = re.match("^([A-Z]{5})([0-9]{4})([A-Z]{1})", pancard)
+
+if ro:
+    print("PAN card is matched:", ro.group())
+else:
+    print("PAN card is unmatched")
+
+
+    
+passport="n512345"
+pp = re.match("^([A-Z]{3})([0-9]{4})",passport)
+if pp:
+    print("passport is matched",pp.group())
+else:
+    print("passport is un matched")
+
+def remove_duplicates_set(my_list):
+    return list(set(my_list))
+
+my_list = ['a', 'b', 'c', 'a', 'd', 'c']
+unique_list = remove_duplicates_set(my_list)
+print(unique_list)
+
+def remove_duplicates_set(my_list):
+    return list(set(my_list))
+my_list = [1,2,3,4,5,6,2,3,4,5]
+unique_list = remove_duplicates_set(my_list)
+print(unique_list)
+
+#===========================================================================================CODE TO FIND EVEN OR ODD NUMBER
+# def check_even_odd(number):
+#     if number % 2==0:
+#         print("the number is even.")
+#     else:
+#         print("the number is odd.")
+        
+# number=7
+# check_even_add(number)
+
+# l=[11,22,33]
+# print(max(l))
+
+
+    
+# a="amma"
+# c=a[::-1]
+# print(c)
+
+# if c ==a:
+#     print("palindrome")
+    
+# else:
+#     print("not palindrome")
+
+
+
+
+
+
+   
+
+                   
+
+
+
+
+ 
+               
+ 
+
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240108 13:48:30.300" rpa="false" schemaversion="4">
+<suite id="s1" name="For Loop" source="C:\Users\navee\Desktop\python practice\Robot framework practice\for_loop.robot">
+<test id="s1-t1" name="For Loop with list" line="9">
+<for flavor="IN">
+<var>${I}</var>
+<value>${names}</value>
+<iter>
+<var name="${I}">['babu', 'mahesh', 'sunil', 'harish', 'suresh']</var>
+<kw name="Log" library="BuiltIn">
+<arg>${I}</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240108 13:48:30.347" level="WARN">['babu', 'mahesh', 'sunil', 'harish', 'suresh']</msg>
+<status status="PASS" starttime="20240108 13:48:30.347" endtime="20240108 13:48:30.347"/>
+</kw>
+<status status="PASS" starttime="20240108 13:48:30.332" endtime="20240108 13:48:30.347"/>
+</iter>
+<status status="PASS" starttime="20240108 13:48:30.332" endtime="20240108 13:48:30.347"/>
+</for>
+<status status="PASS" starttime="20240108 13:48:30.332" endtime="20240108 13:48:30.347"/>
+</test>
+<doc>Loop oparations using list</doc>
+<status status="PASS" starttime="20240108 13:48:30.300" endtime="20240108 13:48:30.347"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="For Loop">For Loop</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240108 13:48:30.347" level="WARN">['babu', 'mahesh', 'sunil', 'harish', 'suresh']</msg>
+</errors>
+</robot>
