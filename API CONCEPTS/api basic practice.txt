@@ -1,0 +1,29 @@
+get:
+
+url : https://reqres.in/api/users
+
+
+post:
+
+url : https://reqres.in/api/register
+
+input data :
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+
+put:
+
+url: https://reqres.in/api/users/2
+
+input data:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+
+delete:
+
+url: https://reqres.in/api/users/2
+
